@@ -16,5 +16,5 @@ result4 = num1 / num2
 print("Division:", result4)
 
 # Rounding
-result5 = round(3.14159265359, 2)  # Rounds to 2 decimal places
+result5 = round(3.14159265359, 3)  # Rounds to 2 decimal places
 print("Rounded:", result5)

@@ -1,10 +1,10 @@
 import re
 
-text = "The quick brown fox"
+text = "quick brown fox"
 pattern = r"quick"
 
-match = re.match(pattern, text)
-if match:
-    print("Match found:", match.group())
+catch = re.match(pattern, text)
+if catch:
+    print("Match found:", catch.group())
 else:
     print("No match")
