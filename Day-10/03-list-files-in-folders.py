@@ -1,8 +1,8 @@
 import os
 
-def list_files_in_folder(folder_path):
+def list_files_in_folder(arbitary): # this output we got it from line 16
     try:
-        files = os.listdir(folder_path)
+        files = os.listdir(arbitary)
         return files, None
     except FileNotFoundError:
         return None, "Folder not found"
