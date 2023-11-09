@@ -1,4 +1,4 @@
-import sys
+import sys # read the command line argument that user is passing
 type = sys.argv[1]
 # print(f"This gonna give us first item of argument - {sys.argv[0]}")
 if type == "t2.micro": # == comparison operator
@@ -8,4 +8,6 @@ elif type == "t2.medium":
 elif type == "t2.xlarge":
     print("it will charge you $4 a day")
 else:
-    print("please, provide a valid instance type")    
+    print("please, provide a valid instance type")
+
+# in the cli give it like - python3 test.py t2.medium(test.py is first index and t2.medium is the second index)
