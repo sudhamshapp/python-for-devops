@@ -20,6 +20,7 @@ if response.status_code == 200:
     # Iterate through each pull request and extract the creator's name
     for pull in pull_requests:
         creator = pull['user']['login']
+        # print(creator)
         if creator in pr_creators:
             pr_creators[creator] += 1
         else:
@@ -31,3 +32,5 @@ if response.status_code == 200:
         print(f"{creator}: {count} PR(s)")
 else:
     print(f"Failed to fetch data. Status code: {response.status_code}")
+# print(pr_creators)
+# print(creator)
