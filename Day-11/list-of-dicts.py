@@ -22,10 +22,10 @@ ec2_info = [
 
 for item in ec2_info:
     # print(item)
-    # print(item["type"])
+    print(item["type"])
 
 
 
 
 # list of strings
-name = ["sudhamsh", "AMD", "mirafra"]
+# name = ["sudhamsh", "AMD", "mirafra"]
